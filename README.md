@@ -6,8 +6,7 @@
 
 # A short explanation of how you organised the code, and why.
 
-#  Your approach to the automatic pivot and to snapping, and the cases where each still gives a
-poor result
+#  Your approach to the automatic pivot and to snapping, and the cases where each still gives a poor result
 
 # What is unfinished
 
