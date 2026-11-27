@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540a660f10ef5fb46b8e54e1f7efa7f5, type: 3}
+  m_Name: HeaderCenterBar
+  m_EditorClassIdentifier: 
+  buttonSOs:
+  - {fileID: 11400000, guid: 7e4ded02241cfae4e8b2215b4a789cd7, type: 2}
+  - {fileID: 11400000, guid: 8b78f68e3a04f074c9ec8f6714b7eaa3, type: 2}
+  - {fileID: 11400000, guid: 8b1fdeee5ded6624997955133faec405, type: 2}

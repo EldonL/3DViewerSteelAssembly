@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540a660f10ef5fb46b8e54e1f7efa7f5, type: 3}
+  m_Name: Rotations
+  m_EditorClassIdentifier: 
+  buttonSOs:
+  - {fileID: 11400000, guid: 2b4acd7006e06b74a8765f732d5d6ca9, type: 2}
+  - {fileID: 11400000, guid: 19d6f623f4bd3e94395b57db68559cd3, type: 2}
+  - {fileID: 11400000, guid: b5f34f300ee11c84a9f38a6be16e15a8, type: 2}
