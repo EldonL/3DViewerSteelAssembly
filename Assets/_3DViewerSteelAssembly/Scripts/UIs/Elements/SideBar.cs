@@ -8,7 +8,6 @@ namespace ThreeDViewerSteelAssembly.UIs.Elements
     public abstract class SideBar : MonoBehaviour
     {
         [SerializeField] private Transform container;
-        [SerializeField] private Transform _background;
         [SerializeField] private SquareButton _squareButtonPrefab;
         [SerializeField] private ButtonListSO buttonListSO;
 
