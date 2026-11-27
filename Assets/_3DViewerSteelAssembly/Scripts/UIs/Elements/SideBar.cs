@@ -9,7 +9,7 @@ namespace ThreeDViewerSteelAssembly.UIs.Elements
     {
         [SerializeField] private Transform container;
         [SerializeField] private SquareButton _squareButtonPrefab;
-        [SerializeField] private List<ButtonSO> ButtonSOs;
+        [SerializeField] private ButtonListSO buttonListSO;
 
 
 
@@ -19,7 +19,7 @@ namespace ThreeDViewerSteelAssembly.UIs.Elements
         }
         internal void Init()
         {
-            foreach (var b in ButtonSOs)
+            foreach (var b in buttonListSO.ButtonSOs)
             {
                 var result = Instantiate(_squareButtonPrefab, container);
                 result.Init(b.ButtonName, b.ButtonSprite, b.OnButtonClickAction);

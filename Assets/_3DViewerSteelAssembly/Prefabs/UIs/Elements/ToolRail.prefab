@@ -174,8 +174,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   container: {fileID: 5973479163862331978}
   _squareButtonPrefab: {fileID: 8889032159102425111, guid: 868c0e648a9ae504bafd14bbced101ea, type: 3}
-  ButtonSOs:
-  - {fileID: 11400000, guid: 1bb0064bac3644f4ab2ed78aa35a890f, type: 2}
-  - {fileID: 11400000, guid: b55ff475848fce24f9b5f56e47a3675f, type: 2}
-  - {fileID: 11400000, guid: 102d7673a49b51b4bad3cf1abf2a3677, type: 2}
-  - {fileID: 11400000, guid: c499eac62a3d7754b964e916d653a8f7, type: 2}
+  buttonListSO: {fileID: 11400000, guid: 247570c7730a5b444a8b71d2be09a60f, type: 2}
