@@ -8,6 +8,7 @@ namespace ThreeDViewerSteelAssembly.UIs.Elements
     public abstract class SideBar : MonoBehaviour
     {
         [SerializeField] private Transform container;
+        [SerializeField] private Transform _background;
         [SerializeField] private SquareButton _squareButtonPrefab;
         [SerializeField] private ButtonListSO buttonListSO;
 
@@ -22,7 +23,7 @@ namespace ThreeDViewerSteelAssembly.UIs.Elements
             foreach (var b in buttonListSO.ButtonSOs)
             {
                 var result = Instantiate(_squareButtonPrefab, container);
-                result.Init(b.ButtonName, b.ButtonSprite, b.OnButtonClickAction);
+                result.Init(b.ButtonName, b.ButtonSprite, b.OnButtonClickAction,b.IsInteractable);
             }
         }
     }

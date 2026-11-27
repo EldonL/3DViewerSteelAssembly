@@ -12,4 +12,7 @@ public class ButtonSO : ScriptableObject
     [SerializeField] private SendReceiveEventSO _onButtonClickAction;
     public SendReceiveEventSO OnButtonClickAction => _onButtonClickAction;
 
+    [SerializeField] private bool _isInteractable;
+    public bool IsInteractable { get => _isInteractable; }
+
 }

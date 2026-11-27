@@ -15,12 +15,13 @@ namespace ThreeDViewerSteelAssembly.UIs.Buttons
 
 
 
-        internal void Init(string buttonName, Sprite buttonImage, SendReceiveEventSO onButtonClickAction)
+        internal void Init(string buttonName, Sprite buttonImage, SendReceiveEventSO onButtonClickAction, bool isInteractable)
         {
             _buttonName.text = buttonName;
             _buttonImage.sprite = buttonImage;
             _onButtonClickAction = onButtonClickAction;
             _buttonElement.onClick.AddListener(_onButtonClickAction.RaiseEvent);
+            _buttonElement.interactable = isInteractable;
         }
 
         private void OnDestroy()
