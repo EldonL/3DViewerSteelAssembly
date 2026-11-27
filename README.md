@@ -2,7 +2,7 @@
 
 # Unity version and scene to open
 - Unity version 2022.3.62f3
-- Scene to open: Assets\_3DViewerSteelAssembly\Scenes\main
+- Scene to open: Assets\ _3DViewerSteelAssembly\Scenes\main
 
 # A short explanation of how you organised the code, and why.
 - Setup MVC design pattern (model not setup). Reasoning: This allows me to receive all the events from the controller. I can choose which view (aka screen) to open from the controller. The View can choose which elements (sidebar, buttons) to open. Allows scalability in case the same/different view needs to be opened closed. 
