@@ -15,7 +15,7 @@ namespace ThreeDViewerSteelAssembly.SceneControllers
 
         public void OnOpenConfirmView()
         {
-            ShowView(ViewType.confirmView, null, "Not implemented", "No need to implement as mentioned in requirements", "Cancel");
+            ShowView(ViewType.confirmView, null, "Mock UI", "No need to implement as mentioned Unity Developer Technical Test", "Cancel");
         }
 
         public void OnOpenMeasureTool()
