@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4afdaaeb4c3d90b4a9aaa6348357ef8b, type: 3}
   m_Name: LayoutAngle
   m_EditorClassIdentifier: 
-  _buttonName: LayoutAngle
+  _buttonName: Layout Angle
   _buttonSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   _onButtonClickAction: {fileID: 11400000, guid: 343b23b4d5dfd0b4b8a0816aa7f3e7d7, type: 2}
+  _isInteractable: 0
