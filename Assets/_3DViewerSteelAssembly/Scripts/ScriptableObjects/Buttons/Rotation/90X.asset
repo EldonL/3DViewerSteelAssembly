@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 90X
   m_EditorClassIdentifier: 
   _buttonName: "90\xB0X"
-  _buttonSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  _buttonSprite: {fileID: 21300000, guid: c81d8ca1a48bc8e4d9775f6e8fefce58, type: 3}
   _onButtonClickAction: {fileID: 11400000, guid: 343b23b4d5dfd0b4b8a0816aa7f3e7d7, type: 2}
   _isInteractable: 1

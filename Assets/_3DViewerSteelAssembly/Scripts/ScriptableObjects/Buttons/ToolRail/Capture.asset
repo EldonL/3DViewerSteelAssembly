@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Capture
   m_EditorClassIdentifier: 
   _buttonName: Capture
-  _buttonSprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  _buttonSprite: {fileID: 21300000, guid: b8321e2395e160544800093dee0add5e, type: 3}
   _onButtonClickAction: {fileID: 11400000, guid: 343b23b4d5dfd0b4b8a0816aa7f3e7d7, type: 2}
   _isInteractable: 1

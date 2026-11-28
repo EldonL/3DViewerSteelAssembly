@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Angle
   m_EditorClassIdentifier: 
   _buttonName: Angle
-  _buttonSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  _buttonSprite: {fileID: 21300000, guid: c5518ed2aca3ddf4cb8c027fb8ea60fc, type: 3}
   _onButtonClickAction: {fileID: 11400000, guid: 343b23b4d5dfd0b4b8a0816aa7f3e7d7, type: 2}
+  _isInteractable: 0
