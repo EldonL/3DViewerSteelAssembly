@@ -17,4 +17,5 @@
 
 # The AI Tools you used
 - Chatgpt
+  1. Generated the icons in Assets\_3DViewerSteelAssembly\Sprites\ButtonIcons
 - Git Copilot 
